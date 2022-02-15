@@ -1,0 +1,11 @@
+:root {
+  --primary-color: hsl(81, 56%, 57%);
+  --secondary-color: hsl(146, 85%, 18%);
+  --white-color: hsl(0, 0%, 100%);
+  --scroll-x-icon-color: hsl(0, 0%, 50%);
+  --scroll-x-icon-bg-color: hsl(0, 2%, 91%);
+  --header-item-grey-color: hsl(0, 1%, 60%);
+  --search-icon-hover-color: hsl(0, 6%, 90%);
+  --title-border-bottom-color: hsl(0, 3%, 82%);
+  --product-card-grey-color: hsl(0, 0%, 80%);
+}
