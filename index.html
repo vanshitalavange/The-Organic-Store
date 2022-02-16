@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Mandeshi Agro | Organic and Natural</title>
+    <link
+      href="https://horizon-ui.netlify.app/stylesheets/main.css"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="./assets/ma_logo.png" />
+    <link href="./stylesheets/pages/index.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="page-header">
+      <div class="header-wrapper flex-row justify-space-between">
+        <div class="header-logo">
+          <a href="./index.html"
+            ><img
+              class="responsive-img"
+              src="assets/ma_logo.png"
+              alt="mandeshi-agro-logo"
+          /></a>
+        </div>
+        <div class="search-bar-box align-center flex-row justify-space-between">
+          <input class="search-bar" type="text" placeholder="Search" />
+          <i class="fa fa-search header-icon align-center"></i>
+        </div>
+        <nav class="nav-bar align-center">
+          <ul class="nav-list flex-row">
+            <button class="mobile-btn-search">
+              <i
+                class="fa fa-search header-icon align-center mobile-search-icon"
+              ></i>
+            </button>
+            <div class="list-item-box flex-row">
+              <div class="badge">
+                <i
+                  class="fa fa-shopping-cart header-icon header-badge-icon"
+                ></i>
+                <span class="badge-counter badge-round badge-counter-right"
+                  >0</span
+                >
+              </div>
+              <li class="list-item align-center">
+                <a href="" class="nav-link">Cart</a>
+              </li>
+            </div>
+            <div class="list-item-box flex-row">
+              <div class="badge">
+                <i class="fa fa-heart header-icon header-badge-icon"></i>
+                <span class="badge-counter badge-round badge-counter-right"
+                  >0</span
+                >
+              </div>
+              <li class="list-item align-center">
+                <a href="" class="nav-link">Wishlist</a>
+              </li>
+            </div>
+            <div class="list-item-box flex-row">
+              <i class="fa fa-user header-icon header-badge-icon align-end"></i>
+              <li class="list-item align-center">
+                <a href="" class="nav-link">Login</a>
+              </li>
+            </div>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="mobile-search-bar-box flex-row">
+      <input class="mobile-search-input" type="text" placeholder="Search" />
+      <i class="fa fa-search header-icon align-center"></i>
+    </div>
+    <main class="page-main">
+      <section class="hero">
+        <img
+          class="hero-img responsive-img"
+          src="assets/landing-page/ma_home_banner1.png"
+          alt="mandeshi-agro-hero-image"
+        />
+      </section>
+      <section class="best-deals">
+        <h1 class="section-title text-centered">Best deals</h1>
+        <button class="btn-left-scroll">
+          <i class="fas fa-angle-left"></i>
+        </button>
+        <button class="btn-right-scroll">
+          <i class="fas fa-angle-right"></i>
+        </button>
+        <div class="best-deals-cards-wrapper">
+          <div class="product-card flex-column">
+            <div class="product-img-container">
+              <img
+                class="responsive-img"
+                src="assets/products/lemon.png"
+                alt="lemon"
+              />
+            </div>
+            <span class="wishlist">
+              <i class="fa fa-heart"></i>
+            </span>
+            <div class="product-card-body flex-column">
+              <h3 class="product-title">Lemon</h3>
+              <div class="price-rating-wrapper flex-row justify-space-between">
+                <div class="product-price-container flex-row">
+                  <h4 class="price">₹620</h4>
+                  <h5 class="price-line-through align-end">₹650</h5>
+                </div>
+                <div class="card-rating flex-row">
+                  <div class="flex-row align-center">
+                    <span class="material-icons rating-icon fs-16"> star </span>
+                    <span class="material-icons rating-icon fs-16"> star </span>
+                    <span class="material-icons rating-icon fs-16"> star </span>
+                    <span class="material-icons rating-icon fs-16">
+                      star_half
+                    </span>
+                    <span class="material-icons rating-icon fs-16">
+                      star_border
+                    </span>
+                  </div>
+                  <p class="rating-count align-center">11</p>
+                </div>
+              </div>
+              <div class="product-card-actions flex-row flex-wrap">
+                <div class="quantity-box flex-row">
+                  <button class="btn-increment">+</button>
+                  <input
+                    class="product-quantity"
+                    type="text"
+                    name="quantity"
+                    value="1"
+                    min="1"
+                  />
+                  <button class="btn-decrement">-</button>
+                </div>
+                <a href="#" class="btn-add-cart flex-row-center">
+                  <i class="fa fa-shopping-cart"></i>
+                  ADD TO CART
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card flex-column">
+            <div class="product-img-container">
+              <img
+                class="responsive-img"
+                src="assets/products/apple.png"
+                alt="apple"
+              />
+            </div>
+            <span class="wishlist">
+              <i class="fa fa-heart"></i>
+            </span>
+            <div class="product-card-body flex-column">
+              <h3 class="product-title">Apple</h3>
+              <div class="price-rating-wrapper flex-row justify-space-between">
+                <div class="product-price-container flex-row">
+                  <h4 class="price">₹620</h4>
+                  <h5 class="price-line-through align-end">₹650</h5>
+                </div>
+                <div class="card-rating flex-row">
+                  <div class="flex-row align-center">
+                    <span class="material-icons rating-icon fs-16"> star </span>
+                    <span class="material-icons rating-icon fs-16"> star </span>
+                    <span class="material-icons rating-icon fs-16"> star </span>
+                    <span class="material-icons rating-icon fs-16">
+                      star_half
+                    </span>
+                    <span class="material-icons rating-icon fs-16">
+                      star_border
+                    </span>
+                  </div>
+                  <p class="rating-count align-center">11</p>
+                </div>
+              </div>
+              <div class="product-card-actions flex-row">
+                <div class="quantity-box flex-row">
+                  <button class="btn-increment">+</button>
+                  <input
+                    class="product-quantity"
+                    type="text"
+                    name="quantity"
+                    value="1"
+                    min="1"
+                  />
+                  <button class="btn-decrement">-</button>
+                </div>
+                <a href="#" class="btn-add-cart flex-row-center">
+                  <i class="fa fa-shopping-cart"></i>
+                  ADD TO CART
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card flex-column">
+            <div class="product-img-container">
+              <img
+                class="responsive-img"
+                src="assets/products/chilli.png"
+                alt="chillies"
+              />
+            </div>
+            <span class="wishlist">
+              <i class="fa fa-heart"></i>
+            </span>
+            <div class="product-card-body flex-column">
+              <h3 class="product-title">Red Chillies</h3>
+              <div class="price-rating-wrapper flex-row justify-space-between">
+                <div class="product-price-container flex-row">
+                  <h4 class="price">₹620</h4>
+                  <h5 class="price-line-through align-end">₹650</h5>
+                </div>
+                <div class="card-rating flex-row">
+                  <div class="flex-row align-center">
+                    <span class="material-icons rating-icon fs-16"> star </span>
+                    <span class="material-icons rating-icon fs-16"> star </span>
+                    <span class="material-icons rating-icon fs-16"> star </span>
+                    <span class="material-icons rating-icon fs-16">
+                      star_half
+                    </span>
+                    <span class="material-icons rating-icon fs-16">
+                      star_border
+                    </span>
+                  </div>
+                  <p class="rating-count align-center">11</p>
+                </div>
+              </div>
+              <div class="product-card-actions flex-row">
+                <div class="quantity-box flex-row">
+                  <button class="btn-increment">+</button>
+                  <input
+                    class="product-quantity"
+                    type="text"
+                    name="quantity"
+                    value="1"
+                    min="1"
+                  />
+                  <button class="btn-decrement">-</button>
+                </div>
+                <a href="#" class="btn-add-cart flex-row-center">
+                  <i class="fa fa-shopping-cart"></i>
+                  ADD TO CART
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card flex-column">
+            <div class="product-img-container">
+              <img
+                class="responsive-img"
+                src="assets/products/beetroot.png"
+                alt="beetroot"
+              />
+            </div>
+            <span class="wishlist">
+              <i class="fa fa-heart"></i>
+            </span>
+            <div class="product-card-body flex-column">
+              <h3 class="product-title">Beetroot</h3>
+              <div class="price-rating-wrapper flex-row justify-space-between">
+                <div class="product-price-container flex-row">
+                  <h4 class="price">₹620</h4>
+                  <h5 class="price-line-through align-end">₹650</h5>
+                </div>
+                <div class="card-rating flex-row">
+                  <div class="flex-row align-center">
+                    <span class="material-icons rating-icon fs-16"> star </span>
+                    <span class="material-icons rating-icon fs-16"> star </span>
+                    <span class="material-icons rating-icon fs-16"> star </span>
+                    <span class="material-icons rating-icon fs-16">
+                      star_half
+                    </span>
+                    <span class="material-icons rating-icon fs-16">
+                      star_border
+                    </span>
+                  </div>
+                  <p class="rating-count align-center">11</p>
+                </div>
+              </div>
+              <div class="product-card-actions flex-row">
+                <div class="quantity-box flex-row">
+                  <button class="btn-increment">+</button>
+                  <input
+                    class="product-quantity"
+                    type="text"
+                    name="quantity"
+                    value="1"
+                    min="1"
+                  />
+                  <button class="btn-decrement">-</button>
+                </div>
+                <a href="#" class="btn-add-cart flex-row-center">
+                  <i class="fa fa-shopping-cart"></i>
+                  ADD TO CART
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card flex-column">
+            <div class="product-img-container">
+              <img
+                class="responsive-img"
+                src="assets/products/danedar-ghee.png"
+                alt="danedar-ghee"
+              />
+            </div>
+            <span class="wishlist">
+              <i class="fa fa-heart"></i>
+            </span>
+            <div class="product-card-body flex-column">
+              <h3 class="product-title">Pure Danedar Ghee</h3>
+              <div class="price-rating-wrapper flex-row justify-space-between">
+                <div class="product-price-container flex-row">
+                  <h4 class="price">₹620</h4>
+                  <h5 class="price-line-through align-end">₹650</h5>
+                </div>
+                <div class="card-rating flex-row">
+                  <div class="flex-row align-center">
+                    <span class="material-icons rating-icon fs-16"> star </span>
+                    <span class="material-icons rating-icon fs-16"> star </span>
+                    <span class="material-icons rating-icon fs-16"> star </span>
+                    <span class="material-icons rating-icon fs-16">
+                      star_half
+                    </span>
+                    <span class="material-icons rating-icon fs-16">
+                      star_border
+                    </span>
+                  </div>
+                  <p class="rating-count align-center">11</p>
+                </div>
+              </div>
+              <div class="product-card-actions flex-row flex-wrap">
+                <div class="quantity-box flex-row">
+                  <button class="btn-increment">+</button>
+                  <input
+                    class="product-quantity"
+                    type="text"
+                    name="quantity"
+                    value="1"
+                    min="1"
+                  />
+                  <button class="btn-decrement">-</button>
+                </div>
+                <a href="#" class="btn-add-cart flex-row-center">
+                  <i class="fa fa-shopping-cart"></i>
+                  ADD TO CART
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card flex-column">
+            <div class="product-img-container">
+              <img
+                class="responsive-img"
+                src="assets/products/green-peas.png"
+                alt="green-peas"
+              />
+            </div>
+            <span class="wishlist">
+              <i class="fa fa-heart"></i>
+            </span>
+            <div class="product-card-body flex-column">
+              <h3 class="product-title">Green peas</h3>
+              <div class="price-rating-wrapper flex-row justify-space-between">
+                <div class="product-price-container flex-row">
+                  <h4 class="price">₹620</h4>
+                  <h5 class="price-line-through align-end">₹650</h5>
+                </div>
+                <div class="card-rating flex-row">
+                  <div class="flex-row align-center">
+                    <span class="material-icons rating-icon fs-16"> star </span>
+                    <span class="material-icons rating-icon fs-16"> star </span>
+                    <span class="material-icons rating-icon fs-16"> star </span>
+                    <span class="material-icons rating-icon fs-16">
+                      star_half
+                    </span>
+                    <span class="material-icons rating-icon fs-16">
+                      star_border
+                    </span>
+                  </div>
+                  <p class="rating-count align-center">11</p>
+                </div>
+              </div>
+              <div class="product-card-actions flex-row">
+                <div class="quantity-box flex-row">
+                  <button class="btn-increment">+</button>
+                  <input
+                    class="product-quantity"
+                    type="text"
+                    name="quantity"
+                    value="1"
+                    min="1"
+                  />
+                  <button class="btn-decrement">-</button>
+                </div>
+                <a href="#" class="btn-add-cart flex-row-center">
+                  <i class="fa fa-shopping-cart"></i>
+                  ADD TO CART
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card flex-column">
+            <div class="product-img-container">
+              <img
+                class="responsive-img"
+                src="assets/products/A2-ghee.png"
+                alt="A2-desi-ghee"
+              />
+            </div>
+            <span class="wishlist">
+              <i class="fa fa-heart"></i>
+            </span>
+            <div class="product-card-body flex-column">
+              <h3 class="product-title">A2 Desi Cow Ghee</h3>
+              <div class="price-rating-wrapper flex-row justify-space-between">
+                <div class="product-price-container flex-row">
+                  <h4 class="price">₹620</h4>
+                  <h5 class="price-line-through align-end">₹650</h5>
+                </div>
+                <div class="card-rating flex-row">
+                  <div class="flex-row align-center">
+                    <span class="material-icons rating-icon fs-16"> star </span>
+                    <span class="material-icons rating-icon fs-16"> star </span>
+                    <span class="material-icons rating-icon fs-16"> star </span>
+                    <span class="material-icons rating-icon fs-16">
+                      star_half
+                    </span>
+                    <span class="material-icons rating-icon fs-16">
+                      star_border
+                    </span>
+                  </div>
+                  <p class="rating-count align-center">11</p>
+                </div>
+              </div>
+              <div class="product-card-actions flex-row">
+                <div class="quantity-box flex-row">
+                  <button class="btn-increment">+</button>
+                  <input
+                    class="product-quantity"
+                    type="text"
+                    name="quantity"
+                    value="1"
+                    min="1"
+                  />
+                  <button class="btn-decrement">-</button>
+                </div>
+                <a href="#" class="btn-add-cart flex-row-center">
+                  <i class="fa fa-shopping-cart"></i>
+                  ADD TO CART
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="categories">
+        <h1 class="section-title text-centered">Our categories</h1>
+        <div class="categories-cards-wrapper">
+          <div class="product-category flex-col-center">
+            <img
+              class="category-img responsive-img"
+              src="assets/product-categories/fruit.png"
+              alt="category-fruits"
+            />
+            <h3>Organic Fruits</h3>
+          </div>
+          <div class="product-category flex-col-center">
+            <img
+              class="category-img responsive-img"
+              src="assets/product-categories/cow.png"
+              alt="category-dairy-products"
+            />
+            <h3>Organic Dairy Products</h3>
+          </div>
+          <div class="product-category flex-col-center">
+            <img
+              class="category-img responsive-img"
+              src="assets/product-categories/sunflower-oil.png"
+              alt="category-oils"
+            />
+            <h3>Wood Pressed Oils</h3>
+          </div>
+          <div class="product-category flex-col-center">
+            <img
+              class="category-img responsive-img"
+              src="assets/product-categories/chilli.png"
+              alt="category-spices"
+            />
+            <h3>Organic Spices</h3>
+          </div>
+          <div class="product-category flex-col-center">
+            <img
+              class="category-img responsive-img"
+              src="assets/product-categories/vegetables.png"
+              alt="category-vegetables"
+            />
+            <h3>Organic Vegetables</h3>
+          </div>
+          <div class="product-category flex-col-center">
+            <img
+              class="category-img responsive-img"
+              src="assets/product-categories/rice.png"
+              alt="category-grocery"
+            />
+            <h3>Organic Groceries</h3>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="page-footer text-centered">
+      created by
+      <a href="https://github.com/vanshitalavange">vanshitalavange</a> -
+      <strong>@neogcamp</strong>
+    </footer>
+    <script src="JS/index.js"></script>
+  </body>
+</html>
