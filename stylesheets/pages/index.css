@@ -1,9 +1,6 @@
 @import url("../base/colors.css");
 @import url("../base/variables.css");
 
-.display-none {
-  display: none;
-}
 html {
   scroll-behavior: smooth;
 }
