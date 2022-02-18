@@ -1,0 +1,29 @@
+/** component library **/
+@import url("https://horizon-ui.netlify.app/stylesheets/main.css");
+
+/** base files **/
+@import url("../stylesheets/base/colors.css");
+@import url("../stylesheets/base/variables.css");
+
+/** layout - header and footer **/
+@import url("./layout/layout.css");
+
+/** login signup popup **/
+@import url("../stylesheets/pages/login-signup.css");
+
+/** generic css **/
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin-top: var(--spacing-xxs);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding-top: 0;
+}

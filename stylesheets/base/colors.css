@@ -8,4 +8,6 @@
   --search-icon-hover-color: hsl(0, 6%, 90%);
   --title-border-bottom-color: hsl(0, 3%, 82%);
   --product-card-grey-color: hsl(0, 0%, 80%);
+  --login-signup-popup-bg-color:hsla(0, 0%, 0%, 0.7);
+    --form-input-bg-color:hsl(0, 0%, 93%);
 }
