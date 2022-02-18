@@ -1,0 +1,120 @@
+/** ------ header styles ------ **/
+.page-header {
+  box-shadow: 0 2px 3px -1px rgba(0, 0, 0, 0.1);
+  background-color: var(--white-color);
+}
+.header-wrapper {
+  width: 90vw;
+  margin: 0 auto;
+  gap: var(--spacing-sm);
+}
+.header-logo {
+  width: clamp(3.5rem, 7.5rem, 9.5rem);
+}
+/** header search bar **/
+.search-bar-box {
+  padding: 0.1rem;
+  border: 1px solid var(--header-item-grey-color);
+  border-radius: 3rem;
+  width: clamp(16rem, 30rem, 32rem);
+}
+.search-bar {
+  flex-grow: 1;
+  border-radius: 3rem;
+  padding-left: var(--spacing-xs);
+}
+.search-bar-box i {
+  padding: 0.6rem;
+  border-radius: var(--border-rd-round);
+  margin-right: 0.3rem;
+}
+.search-bar-box i:hover {
+  cursor: pointer;
+  background-color: var(--search-icon-hover-color);
+}
+/** header nav **/
+.nav-list {
+  gap: var(--spacing-sm);
+}
+.mobile-search-icon {
+  display: none;
+}
+.mobile-search-bar-box {
+  padding: 0 var(--spacing-xxs);
+  width: 90vw;
+  margin: 0 auto;
+  position: absolute;
+  left: 5vw;
+  top: 7.5rem;
+  display: none;
+  z-index: 2;
+  box-shadow: 1px 1px 10px 3px rgba(36, 35, 35, 0.1);
+}
+.mobile-search-input {
+  flex-grow: 1;
+  padding: var(--spacing-xxs) 0;
+}
+/** classes used on toggling mobile search button **/
+.mobile-search-btn-toggle {
+  display: flex;
+}
+.page-main-reduce-opacity {
+  opacity: 0.6;
+}
+
+.list-item-box {
+  gap: var(--spacing-xxs);
+}
+.list-item-box:nth-child(3) {
+  gap: 0.1rem;
+}
+.list-item {
+  margin-top: 0.3rem;
+}
+.badge-counter {
+  padding: 0.1rem 0.3rem;
+  font-size: 0.7rem;
+  background-color: var(--primary-color);
+  font-weight: bold;
+}
+.header-badge-icon {
+  margin-right: 0.6rem;
+  margin-top: 0.4rem;
+}
+.header-icon {
+  color: var(--header-item-grey-color);
+  font-size: var(--font-size-md);
+}
+.nav-link {
+  color: var(--header-item-grey-color);
+}
+.list-item-box:hover > .badge > .header-icon,
+.list-item-box:hover > .list-item > .nav-link,
+.list-item-box:hover > .header-icon {
+  cursor: pointer;
+  color: var(--primary-color);
+}
+/** ------ footer styles ------ **/
+.page-footer {
+  font-size: var(--font-size-xs);
+  margin-bottom: var(--spacing-xxs);
+}
+.page-footer a {
+  color: var(--white-color);
+  background-color: var(--primary-color);
+  padding: 0 var(--spacing-xxs);
+  border-radius: var(--border-rd-sm);
+  font-weight: var(--font-weight-semi-bold);
+}
+/** media queries for responsive header **/
+@media only screen and (max-width: 850px) {
+    .search-bar-box {
+      display: none;
+    }
+    .list-item {
+      display: none;
+    }
+    .mobile-search-icon {
+      display: block;
+    }
+  }

@@ -1,106 +1,104 @@
-@import url('../base/colors.css');
-@import url('../base/variables.css');
-
-.login-signup-section{
-    width:100%;
-    position: fixed;
-    top:0;
-    left:0;
-    right:0;
-    bottom:0;
-    background-color: var(--login-signup-popup-bg-color);
-    z-index:3;
-    display: none;
+.login-signup-section {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--login-signup-popup-bg-color);
+  z-index: 3;
+  display: none;
 }
-.login-signup-wrapper{
-    width:fit-content; 
-    border-radius: var(--border-rd-md);
-    transition: 0.5s ease-in;
+.login-signup-wrapper {
+  width: fit-content;
+  border-radius: var(--border-rd-md);
+  transition: 0.5s ease-in;
 }
-.login-signup-wrapper i{
-    cursor:pointer;
-    font-size: var(--font-size-md);
-    padding:0.2rem 0.4rem;
-    color:var(--white-color);
+.login-signup-wrapper i {
+  cursor: pointer;
+  font-size: var(--font-size-md);
+  padding: 0.2rem 0.4rem;
+  color: var(--white-color);
 }
-label{
-    color:var(--black-color);
+label {
+  color: var(--black-color);
 }
-.form-input{
-    padding:var(--spacing-xxs) var(--spacing-xxs);
-    background-color: var(--form-input-bg-color);
-    min-width:15rem;
-    border-radius: var(--border-rd-xs);
+.form-input {
+  padding: var(--spacing-xxs) var(--spacing-xxs);
+  background-color: var(--form-input-bg-color);
+  min-width: 15rem;
+  border-radius: var(--border-rd-xs);
 }
-.authentication-wrapper{
-    padding:var(--spacing-md) 4rem;
-    background-color: var(--white-color);
+.authentication-wrapper {
+  padding: var(--spacing-md) 4rem;
+  background-color: var(--white-color);
 }
-.authentication-wrapper-primary{
-    gap:var(--spacing-md);
+.authentication-wrapper-primary {
+  gap: var(--spacing-md);
 }
-.login > .authentication-wrapper-primary{
-    border-top-left-radius: var(--border-rd-md);
-    border-bottom-left-radius: var(--border-rd-md);
+.login > .authentication-wrapper-primary {
+  border-top-left-radius: var(--border-rd-md);
+  border-bottom-left-radius: var(--border-rd-md);
 }
-.signup > .authentication-wrapper-primary{
-    border-top-right-radius: var(--border-rd-md);
-    border-bottom-right-radius: var(--border-rd-md);
+.signup > .authentication-wrapper-primary {
+  border-top-right-radius: var(--border-rd-md);
+  border-bottom-right-radius: var(--border-rd-md);
 }
 .login > .authentication-wrapper-secondary {
-    border-top-right-radius: var(--border-rd-md);
-    border-bottom-right-radius: var(--border-rd-md);
-} 
+  border-top-right-radius: var(--border-rd-md);
+  border-bottom-right-radius: var(--border-rd-md);
+}
 .signup > .authentication-wrapper-secondary {
-    border-top-left-radius: var(--border-rd-md);
-    border-bottom-left-radius: var(--border-rd-md);
+  border-top-left-radius: var(--border-rd-md);
+  border-bottom-left-radius: var(--border-rd-md);
 }
-.authentication-wrapper-secondary{
-    gap:var(--spacing-xxs);
-    background: linear-gradient(to right, rgb(86, 171, 47), rgb(168, 224, 99));
-    color:var(--white-color);
+.authentication-wrapper-secondary {
+  gap: var(--spacing-xxs);
+  background: linear-gradient(to right, rgb(86, 171, 47), rgb(168, 224, 99));
+  color: var(--white-color);
 }
-.login-form,.signup-form{
-    gap:var(--spacing-xs);
+.login-form,
+.signup-form {
+  gap: var(--spacing-xs);
 }
-.input-field-wrapper{
-   gap:var(--spacing-xxs);
+.input-field-wrapper {
+  gap: var(--spacing-xxs);
 }
-.btn-verify{
-    width:fit-content;
-    padding:0.4rem var(--spacing-sm);
-    color:var(--white-color);
-    border-radius: var(--border-rd-xl);
-    border:2.5px solid transparent;
+.btn-verify {
+  width: fit-content;
+  padding: 0.4rem var(--spacing-sm);
+  color: var(--white-color);
+  border-radius: var(--border-rd-xl);
+  border: 2.5px solid transparent;
 }
-.login-form > .btn-login:hover{
-    background-color: var(--secondary-color);
+.login-form > .btn-login:hover {
+  background-color: var(--secondary-color);
 }
-.login > .authentication-wrapper-secondary > .btn-signup{
-    margin-top:var(--spacing-xxs);
-    background-color: var(--secondary-color);
+.login > .authentication-wrapper-secondary > .btn-signup {
+  margin-top: var(--spacing-xxs);
+  background-color: var(--secondary-color);
 }
-.login > .authentication-wrapper-secondary > .btn-signup:hover{
-    background-color: transparent;
-    border-color: var(--secondary-color);
+.login > .authentication-wrapper-secondary > .btn-signup:hover {
+  background-color: transparent;
+  border-color: var(--secondary-color);
 }
-.signup-form > .btn-signup:hover{
-    background-color: var(--secondary-color);
+.signup-form > .btn-signup:hover {
+  background-color: var(--secondary-color);
 }
-.signup > .authentication-wrapper-secondary > .btn-login{
-    margin-top:var(--spacing-xxs);
-    background-color:var(--secondary-color);
+.signup > .authentication-wrapper-secondary > .btn-login {
+  margin-top: var(--spacing-xxs);
+  background-color: var(--secondary-color);
 }
-.signup > .authentication-wrapper-secondary > .btn-login:hover{
-    background-color:transparent;
-    border-color: var(--secondary-color);
+.signup > .authentication-wrapper-secondary > .btn-login:hover {
+  background-color: transparent;
+  border-color: var(--secondary-color);
 }
-.signup{
-    display: none;
+.signup {
+  display: none;
 }
 
-@media only screen and (max-width:768px){
-    .login-signup-wrapper{
-        width:min-content;
-    }
+@media only screen and (max-width: 768px) {
+  .login-signup-wrapper {
+    width: min-content;
+  }
 }
