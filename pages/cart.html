@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart | Mandeshi Agro</title>
+    <link rel="icon" type="image/x-icon" href="../assets/ma_logo.png" />
+    <link href="../stylesheets/pages/cart.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="page-header">
+      <div class="header-wrapper flex-row justify-space-between">
+        <div class="header-logo">
+          <a href="../index.html"
+            ><img
+              class="responsive-img"
+              src="../assets/ma_logo.png"
+              alt="mandeshi-agro-logo"
+          /></a>
+        </div>
+        <div class="search-bar-box align-center flex-row justify-space-between">
+          <input class="search-bar" type="text" placeholder="Search" />
+          <i class="fa fa-search header-icon align-center"></i>
+        </div>
+        <nav class="nav-bar align-center">
+          <ul class="nav-list flex-row">
+            <button class="mobile-btn-search">
+              <i
+                class="fa fa-search header-icon align-center mobile-search-icon"
+              ></i>
+            </button>
+            <div class="list-item-box flex-row">
+              <div class="badge">
+                <i
+                  class="fa fa-shopping-cart header-icon header-badge-icon"
+                ></i>
+                <span class="badge-counter badge-round badge-counter-right"
+                  >0</span
+                >
+              </div>
+              <li class="list-item align-center">
+                <a href="./cart.html" class="nav-link">Cart</a>
+              </li>
+            </div>
+            <div class="list-item-box flex-row">
+              <div class="badge">
+                <i class="fa fa-heart header-icon header-badge-icon"></i>
+                <span class="badge-counter badge-round badge-counter-right"
+                  >4</span
+                >
+              </div>
+              <li class="list-item align-center">
+                <a href="./wishlist.html" class="nav-link">Wishlist</a>
+              </li>
+            </div>
+            <div class="list-item-box list-item-login flex-row">
+              <i class="fa fa-user header-icon header-badge-icon align-end"></i>
+              <li class="list-item align-center">
+                <a href="#" class="nav-link">Login</a>
+              </li>
+            </div>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Login Signup Popup -->
+    <section class="login-signup-section flex-row-center">
+      <div class="login-signup-wrapper flex-column">
+        <button class="btn-close-login-signup-popup align-end">
+          <i class="fa fa-close"></i>
+        </button>
+        <!-- Login section start  -->
+        <section class="login flex-row flex-wrap">
+          <div
+            class="authentication-wrapper authentication-wrapper-primary flex-col-center"
+          >
+            <h2>Sign in</h2>
+            <form class="login-form flex-column">
+              <div class="input-field-wrapper flex-column">
+                <label for="email">Email</label>
+                <input
+                  id="user-email"
+                  class="form-input"
+                  name="user-email"
+                  type="email"
+                  placeholder="user@example.com"
+                  required
+                />
+              </div>
+              <div class="input-field-wrapper flex-column">
+                <label for="password">Password</label>
+                <input
+                  id="user-password"
+                  class="form-input"
+                  name="user-password"
+                  type="password"
+                  placeholder="password"
+                  required
+                />
+              </div>
+              <small class="text-centered"
+                ><a href="#" class="forgot-password"
+                  >Forgot your password?</a
+                ></small
+              >
+              <div
+                class="btn icon-btn-container icon-btn-container-logout btn-verify btn-login align-center"
+              >
+                <span class="material-icons btn-icon"> east </span>
+                <button type="submit" class="icon-btn icon-btn-logout">
+                  Sign in
+                </button>
+              </div>
+            </form>
+          </div>
+          <div
+            class="authentication-wrapper authentication-wrapper-secondary flex-col-center"
+          >
+            <h2>Welcome!</h2>
+            <p class="text-centered">Don't have an account? Create one now</p>
+            <div
+              class="btn icon-btn-container icon-btn-container-logout btn-verify btn-signup align-center"
+            >
+              <span class="material-icons btn-icon"> east </span>
+              <button type="submit" class="icon-btn icon-btn-logout">
+                Sign up
+              </button>
+            </div>
+          </div>
+        </section>
+        <!-- Login section end  -->
+        <!-- Sign up section start  -->
+        <section class="signup flex-row flex-wrap">
+          <div
+            class="authentication-wrapper authentication-wrapper-secondary flex-col-center"
+          >
+            <h2>Welcome!</h2>
+            <p class="text-centered">Already have an account? Login below</p>
+            <div
+              class="btn icon-btn-container icon-btn-container-logout btn-verify btn-login align-center"
+            >
+              <span class="material-icons btn-icon"> east </span>
+              <button type="submit" class="icon-btn icon-btn-logout">
+                Sign in
+              </button>
+            </div>
+          </div>
+          <div
+            class="authentication-wrapper authentication-wrapper-primary flex-col-center"
+          >
+            <h2>Sign up</h2>
+            <form action="" class="signup-form flex-column">
+              <div class="input-field-wrapper flex-column">
+                <label for="password">Name</label>
+                <input
+                  id="new-user-name"
+                  class="form-input"
+                  name="new-user-name"
+                  type="text"
+                  placeholder="Full name"
+                  required
+                />
+              </div>
+              <div class="input-field-wrapper flex-column">
+                <label for="email">Email</label>
+                <input
+                  id="new-user-email"
+                  class="form-input"
+                  name="new-user-email"
+                  type="email"
+                  placeholder="user@example.com"
+                  required
+                />
+              </div>
+              <div class="input-field-wrapper flex-column">
+                <label for="password">Password</label>
+                <input
+                  id="new-user-password"
+                  class="form-input"
+                  name="new-user-password"
+                  type="password"
+                  placeholder="password"
+                  required
+                />
+              </div>
+              <div
+                class="btn icon-btn-container icon-btn-container-logout btn-verify btn-signup align-center"
+              >
+                <span class="material-icons btn-icon"> east </span>
+                <button type="submit" class="icon-btn icon-btn-logout">
+                  Sign up
+                </button>
+              </div>
+            </form>
+          </div>
+        </section>
+        <!-- Sign up section end  -->
+      </div>
+    </section>
+    <div class="page-main">
+      <div class="cart-title-container flex-row-center">
+        <img src="../assets/cart/cart-icon.png" alt="cart-icon" />
+        <h2 class="text-centered">Cart</h2>
+      </div>
+      <div class="cart-wrapper flex-row-center flex-wrap">
+        <section class="cart-products flex-column">
+          <div class="cart-product-card flex-row">
+            <div class="product-img-container align-center">
+              <img
+                class="responsive-img"
+                src="../assets/products/lemon.png"
+                alt="lemon"
+              />
+            </div>
+            <div class="cart-product-card-body flex-column">
+              <h3 class="card-title">Lemon</h3>
+              <div class="quantity-wrapper flex-row">
+                <p class="align-center">Quantity</p>
+                <div class="quantity-box flex-row align-end">
+                  <button class="btn-increment">+</button>
+                  <input
+                    class="product-quantity"
+                    type="text"
+                    name="quantity"
+                    value="1"
+                    min="1"
+                  />
+                  <button class="btn-decrement">-</button>
+                </div>
+              </div>
+              <div class="product-price-container flex-row">
+                <h4 class="price">₹50</h4>
+                <h5 class="price-line-through align-end">₹70</h5>
+              </div>
+              <div class="cart-card-actions flex-column">
+                <button class="btn-move-to-wishlist flex-row-center">
+                  <i class="fa fa-heart"></i>
+                  MOVE TO WISHLIST
+                </button>
+                <button class="btn-remove-from-cart">REMOVE</button>
+              </div>
+            </div>
+          </div>
+          <div class="cart-product-card flex-row">
+            <div class="product-img-container align-center">
+              <img
+                class="responsive-img"
+                src="../assets/products/apple.png"
+                alt="apple"
+              />
+            </div>
+            <div class="cart-product-card-body flex-column">
+              <h3 class="card-title">Apple</h3>
+              <div class="quantity-wrapper flex-row">
+                <p class="align-center">Quantity</p>
+                <div class="quantity-box flex-row align-end">
+                  <button class="btn-increment">+</button>
+                  <input
+                    class="product-quantity"
+                    type="text"
+                    name="quantity"
+                    value="1"
+                    min="1"
+                  />
+                  <button class="btn-decrement">-</button>
+                </div>
+              </div>
+              <div class="product-price-container flex-row">
+                <h4 class="price">₹50</h4>
+                <h5 class="price-line-through align-end">₹70</h5>
+              </div>
+              <div class="cart-card-actions flex-column">
+                <button class="btn-move-to-wishlist flex-row-center">
+                  <i class="fa fa-heart"></i>
+                  MOVE TO WISHLIST
+                </button>
+                <button class="btn-remove-from-cart">REMOVE</button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="cart-total flex-column">
+          <h3 class="cart-total-heading">Price details</h3>
+          <div class="cart-total-details flex-column">
+            <div class="cart-summary flex-column">
+              <div class="cart-summary-item flex-row justify-space-between">
+                <span>Price (2 items)</span>
+                <span>₹100</span>
+              </div>
+              <div class="cart-summary-item flex-row justify-space-between">
+                <span>Discount</span>
+                <span>-₹10</span>
+              </div>
+              <div class="cart-summary-item flex-row justify-space-between">
+                <span>Delivery charges</span>
+                <span>₹40</span>
+              </div>
+            </div>
+            <div class="cart-total-amount flex-row justify-space-between">
+              <span>TOTAL AMOUNT</span>
+              <span>₹130</span>
+            </div>
+            <div class="alert flex-row">
+              <span class="material-icons-round check-icon">
+                check_circle
+              </span>
+              <p class="alert-msg align-center">You saved ₹10 on this order</p>
+            </div>
+          </div>
+          <button class="btn-place-order">PLACE ORDER</button>
+        </section>
+      </div>
+    </div>
+    <footer class="page-footer text-centered">
+      created by
+      <a href="https://github.com/vanshitalavange">vanshitalavange</a> -
+      <strong>@neogcamp</strong>
+    </footer>
+    <script src="../JS/login-signup.js"></script>
+    <script src="../JS/index.js"></script>
+  </body>
+</html>
