@@ -215,10 +215,7 @@
         <div class="filters-body flex-column">
           <div class="filter-category-wrapper flex-column">
             <h4 class="filter-heading">PRICE</h4>
-            <label
-              for="price-range"
-              class="flex-row justify-space-between"
-            >
+            <label for="price-range" class="flex-row justify-space-between">
               <span>₹170</span>
               <span>₹700</span>
               <span>₹2500</span>
@@ -232,59 +229,95 @@
                 type="radio"
                 name="sort-by-filter-radio"
                 class="input-control"
+                id="sort-by-popularity"
               />
-              <label for="radio">Popularity</label>
+              <label for="sort-by-popularity">Popularity</label>
             </div>
             <div class="form-group-input-control flex-row">
               <input
                 type="radio"
                 name="sort-by-filter-radio"
                 class="input-control"
+                id="sort-by-latest"
               />
-              <label for="radio">Latest</label>
+              <label for="sort-by-latest">Latest</label>
             </div>
             <div class="form-group-input-control flex-row">
               <input
                 type="radio"
                 name="sort-by-filter-radio"
                 class="input-control"
+                id="sort-by-low-to-high"
               />
-              <label for="radio">Price - Low to high</label>
+              <label for="sort-by-low-to-high">Price - Low to high</label>
             </div>
             <div class="form-group-input-control flex-row">
               <input
                 type="radio"
                 name="sort-by-filter-radio"
                 class="input-control"
+                id="sort-by-high-to-low"
               />
-              <label for="radio">Price - high to low</label>
+              <label for="sort-by-high-to-low">Price - high to low</label>
             </div>
           </div>
           <div class="filter-category-wrapper flex-column">
             <h4 class="filter-heading">CATEGORY</h4>
             <div class="form-group-input-control flex-row">
-              <input type="checkbox" name="checkbox" class="input-control" />
-              <label for="checkbox">Organic Fruits</label>
+              <input
+                type="checkbox"
+                name="checkbox"
+                class="input-control"
+                id="category-fruits"
+              />
+              <label for="category-fruits">Organic Fruits</label>
             </div>
             <div class="form-group-input-control flex-row">
-              <input type="checkbox" name="checkbox" class="input-control" />
-              <label for="checkbox">Organic Diary Products</label>
+              <input
+                type="checkbox"
+                name="checkbox"
+                class="input-control"
+                id="category-diary-products"
+              />
+              <label for="category-diary-products"
+                >Organic Diary Products</label
+              >
             </div>
             <div class="form-group-input-control flex-row">
-              <input type="checkbox" name="checkbox" class="input-control" />
-              <label for="checkbox">Wood Pressed Oils</label>
+              <input
+                type="checkbox"
+                name="checkbox"
+                class="input-control"
+                id="category-oils"
+              />
+              <label for="category-oils">Wood Pressed Oils</label>
             </div>
             <div class="form-group-input-control flex-row">
-              <input type="checkbox" name="checkbox" class="input-control" />
-              <label for="checkbox">Organic Spices</label>
+              <input
+                type="checkbox"
+                name="checkbox"
+                class="input-control"
+                id="category-spices"
+              />
+              <label for="category-spices">Organic Spices</label>
             </div>
             <div class="form-group-input-control flex-row">
-              <input type="checkbox" name="checkbox" class="input-control" />
-              <label for="checkbox">Organic Vegetables</label>
+              <input
+                type="checkbox"
+                name="checkbox"
+                class="input-control"
+                id="category-vegetables"
+              />
+              <label for="category-vegetables">Organic Vegetables</label>
             </div>
             <div class="form-group-input-control flex-row">
-              <input type="checkbox" name="checkbox" class="input-control" />
-              <label for="checkbox">Organic Groceries</label>
+              <input
+                type="checkbox"
+                name="checkbox"
+                class="input-control"
+                id="category-groceries"
+              />
+              <label for="category-groceries">Organic Groceries</label>
             </div>
           </div>
           <div class="filter-category-wrapper flex-column">
@@ -294,32 +327,36 @@
                 type="radio"
                 name="rating-filter-radio"
                 class="input-control"
+                id="four-stars-and-above"
               />
-              <label for="radio">4 stars & above</label>
+              <label for="four-stars-and-above">4 stars & above</label>
             </div>
             <div class="form-group-input-control flex-row">
               <input
                 type="radio"
                 name="rating-filter-radio"
                 class="input-control"
+                id="three-stars-and-above"
               />
-              <label for="radio">3 stars & above</label>
+              <label for="three-stars-and-above">3 stars & above</label>
             </div>
             <div class="form-group-input-control flex-row">
               <input
                 type="radio"
                 name="rating-filter-radio"
                 class="input-control"
+                id="two-stars-and-above"
               />
-              <label for="radio">2 stars & above</label>
+              <label for="two-stars-and-above">2 stars & above</label>
             </div>
             <div class="form-group-input-control flex-row">
               <input
                 type="radio"
                 name="rating-filter-radio"
                 class="input-control"
+                id="one-star-and-above"
               />
-              <label for="radio">1 star & above</label>
+              <label for="one-star-and-above">1 star & above</label>
             </div>
           </div>
         </div>
@@ -540,10 +577,10 @@
       </section>
     </div>
     <footer class="page-footer text-centered">
-        created by
-        <a href="https://github.com/vanshitalavange">vanshitalavange</a> -
-        <strong>@neogcamp</strong>
-      </footer>
+      created by
+      <a href="https://github.com/vanshitalavange">vanshitalavange</a> -
+      <strong>@neogcamp</strong>
+    </footer>
     <!-- JS files -->
     <script src="JS/login-signup.js"></script>
     <script src="JS/index.js"></script>
