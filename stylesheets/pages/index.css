@@ -27,7 +27,7 @@
   grid-auto-flow: column;
   overflow-x: hidden;
   gap: var(--spacing-sm);
-  transition: 0.3s ease-in;
+  scroll-behavior: smooth;
 }
 .best-deals-cards-wrapper::-webkit-scrollbar {
   display: none;

@@ -10,6 +10,7 @@
   width: 90vw;
   margin: 0 auto;
   gap: var(--spacing-sm);
+  padding-bottom: var(--spacing-xxs);
 }
 .header-logo {
   width: clamp(3.5rem, 7.5rem, 9.5rem);
@@ -100,14 +101,68 @@
 /** ------ footer styles ------ **/
 .page-footer {
   font-size: var(--font-size-xs);
-  margin-bottom: var(--spacing-xxs);
+  margin-top:var(--spacing-xxl);
+  background-color:var(--accent-color);
+  color:var(--white-color);
 }
-.page-footer a {
+.footer-details{
+  padding:var(--spacing-xs);
+  gap:var(--spacing-xs);
+}
+.footer-contents-wrapper{
+  width:90vw;
+  margin:0 auto;
+  gap:var(--spacing-xs);
+  padding: var(--spacing-xs) 0 var(--spacing-xxs) 0;
+  font-size: var(--font-size-sm);
+}
+.footer-bottom-text a{
+  background-color: var(--secondary-color);
+  padding: 0 var(--spacing-xxs);
+  border-radius: var(--border-rd-sm);
+  font-weight: var(--font-weight-semi-bold);
+  color:var(--white-color);
+  font-size: var(--font-size-xs);
+}
+/* .page-footer a { 
   color: var(--white-color);
   background-color: var(--primary-color);
   padding: 0 var(--spacing-xxs);
   border-radius: var(--border-rd-sm);
   font-weight: var(--font-weight-semi-bold);
+} */
+.footer-logo {
+  width: clamp(3.5rem, 7.5rem, 9.5rem);
+}
+.footer-brand-details{
+  gap:var(--spacing-xxs);
+}
+.social-links{
+  gap:var(--spacing-xs);
+}
+.footer-icon{
+  font-size: var(--font-size-lg);
+}
+.footer-nav-list{
+  gap:var(--spacing-xxs);
+}
+.email-input {
+  border-radius: var(--border-rd-sm);
+  padding: var(--spacing-xxs);
+  background-color: var(--white-color);
+}
+.email {
+  border-radius:var(--border-rd-sm) ;
+  width: fit-content;
+}
+.btn-join {
+  color: var(--white-color);
+  background-color: var(--secondary-color);
+  border-radius: var(--border-rd-md);
+  margin-top: 0.2rem;
+  margin-right: 0.2rem;
+  margin:0.2rem 0.2rem 0.2rem 0;
+  padding: var(--spacing-xxs) var(--spacing-xs);
 }
 /** media queries for responsive header **/
 @media only screen and (max-width: 850px) {
