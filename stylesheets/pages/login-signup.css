@@ -6,7 +6,7 @@
   right: 0;
   bottom: 0;
   background-color: var(--login-signup-popup-bg-color);
-  z-index: 3;
+  z-index: 6;
   display: none;
 }
 .login-signup-wrapper {
@@ -28,6 +28,10 @@ label {
   background-color: var(--form-input-bg-color);
   min-width: 15rem;
   border-radius: var(--border-rd-xs);
+}
+.login-form label::after,.signup-form label::after{
+  content: '*';
+  color:var(--required-field-indicator-color);
 }
 .authentication-wrapper {
   padding: var(--spacing-md) 4rem;

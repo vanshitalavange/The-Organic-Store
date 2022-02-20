@@ -13,4 +13,6 @@
   --form-input-bg-color:hsl(0, 0%, 93%);
   --remove-icon-color:hsl(0, 4%, 75%);
   --price-text-color:hsl(0, 1%, 22%);
+  --required-field-indicator-color:hsl(0, 100%, 50%);
+  --footer-background-color:hsl(0, 0%, 94%);
 }
