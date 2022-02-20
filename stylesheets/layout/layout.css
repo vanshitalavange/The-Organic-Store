@@ -3,8 +3,8 @@
   box-shadow: 0 2px 3px -1px rgba(0, 0, 0, 0.1);
   background-color: var(--white-color);
   position: sticky;
-  top:0;
-  z-index:2;
+  top: 0;
+  z-index: 2;
 }
 .header-wrapper {
   width: 90vw;
@@ -100,7 +100,7 @@
 /** ------ footer styles ------ **/
 .page-footer {
   font-size: var(--font-size-xs);
-  margin-bottom: var(--spacing-xxs);
+  text-align: center;
 }
 .page-footer a {
   color: var(--white-color);
@@ -111,13 +111,13 @@
 }
 /** media queries for responsive header **/
 @media only screen and (max-width: 850px) {
-    .search-bar-box {
-      display: none;
-    }
-    .list-item {
-      display: none;
-    }
-    .mobile-search-icon {
-      display: block;
-    }
+  .search-bar-box {
+    display: none;
   }
+  .list-item {
+    display: none;
+  }
+  .mobile-search-icon {
+    display: block;
+  }
+}

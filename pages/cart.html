@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mandeshi Agro | Wishlist</title>
+    <title>Cart | Mandeshi Agro</title>
     <link rel="icon" type="image/x-icon" href="../assets/ma_logo.png" />
-    <link href="../stylesheets/pages/wishlist.css" rel="stylesheet" />
+    <link href="../stylesheets/pages/cart.css" rel="stylesheet" />
   </head>
   <body>
     <header class="page-header">
@@ -199,181 +199,120 @@
         <!-- Sign up section end  -->
       </div>
     </section>
-    <section class="products-wishlist flex-column">
-      <div class="wishlist-header flex-row">
-        <h3>My Wishlist</h3>
-        <span class="align-end">4 items</span>
+    <div class="page-main">
+      <div class="cart-title-container flex-row-center">
+        <img src="../assets/cart/cart-icon.png" alt="cart-icon" />
+        <h2 class="text-centered">Cart</h2>
       </div>
-      <div class="wishlist-items">
-        <div class="product-card flex-column">
-          <div class="product-img-container">
-            <img
-              class="responsive-img"
-              src="../assets/products/lemon.png"
-              alt="lemon"
-            />
-          </div>
-          <span class="remove-from-wishlist">
-            <span class="material-icons"> cancel </span>
-          </span>
-          <div class="product-card-body flex-column">
-            <h3 class="product-title">Lemon</h3>
-            <div class="price-rating-wrapper flex-row justify-space-between">
-              <div class="product-price-container flex-row">
-                <h4 class="price">₹620</h4>
-                <h5 class="price-line-through align-end">₹650</h5>
-              </div>
-              <div class="card-rating flex-row">
-                <div class="flex-row align-center">
-                  <span class="material-icons rating-icon fs-16"> star </span>
-                  <span class="material-icons rating-icon fs-16"> star </span>
-                  <span class="material-icons rating-icon fs-16"> star </span>
-                  <span class="material-icons rating-icon fs-16">
-                    star_half
-                  </span>
-                  <span class="material-icons rating-icon fs-16">
-                    star_border
-                  </span>
+      <div class="cart-wrapper flex-row-center flex-wrap">
+        <section class="cart-products flex-column">
+          <div class="cart-product-card flex-row">
+            <div class="product-img-container align-center">
+              <img
+                class="responsive-img"
+                src="../assets/products/lemon.png"
+                alt="lemon"
+              />
+            </div>
+            <div class="cart-product-card-body flex-column">
+              <h3 class="card-title">Lemon</h3>
+              <div class="quantity-wrapper flex-row">
+                <p class="align-center">Quantity</p>
+                <div class="quantity-box flex-row align-end">
+                  <button class="btn-increment">+</button>
+                  <input
+                    class="product-quantity"
+                    type="text"
+                    name="quantity"
+                    value="1"
+                    min="1"
+                  />
+                  <button class="btn-decrement">-</button>
                 </div>
-                <p class="rating-count align-center">11</p>
               </div>
-            </div>
-            <div class="product-card-actions">
-              <a href="#" class="btn-add-cart btn-move-to-cart flex-row-center">
-                <i class="fa fa-shopping-cart"></i>
-                MOVE TO CART
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="product-card flex-column">
-          <div class="product-img-container">
-            <img
-              class="responsive-img"
-              src="../assets/products/apple.png"
-              alt="apple"
-            />
-          </div>
-          <span class="remove-from-wishlist">
-            <span class="material-icons"> cancel </span>
-          </span>
-          <div class="product-card-body flex-column">
-            <h3 class="product-title">Apple</h3>
-            <div class="price-rating-wrapper flex-row justify-space-between">
               <div class="product-price-container flex-row">
-                <h4 class="price">₹620</h4>
-                <h5 class="price-line-through align-end">₹650</h5>
+                <h4 class="price">₹50</h4>
+                <h5 class="price-line-through align-end">₹70</h5>
               </div>
-              <div class="card-rating flex-row">
-                <div class="flex-row align-center">
-                  <span class="material-icons rating-icon fs-16"> star </span>
-                  <span class="material-icons rating-icon fs-16"> star </span>
-                  <span class="material-icons rating-icon fs-16"> star </span>
-                  <span class="material-icons rating-icon fs-16">
-                    star_half
-                  </span>
-                  <span class="material-icons rating-icon fs-16">
-                    star_border
-                  </span>
-                </div>
-                <p class="rating-count align-center">11</p>
+              <div class="cart-card-actions flex-column">
+                <button class="btn-move-to-wishlist flex-row-center">
+                  <i class="fa fa-heart"></i>
+                  MOVE TO WISHLIST
+                </button>
+                <button class="btn-remove-from-cart">REMOVE</button>
               </div>
             </div>
-            <div class="product-card-actions">
-                <a href="#" class="btn-add-cart btn-move-to-cart flex-row-center">
-                  <i class="fa fa-shopping-cart"></i>
-                  MOVE TO CART
-                </a>
+          </div>
+          <div class="cart-product-card flex-row">
+            <div class="product-img-container align-center">
+              <img
+                class="responsive-img"
+                src="../assets/products/apple.png"
+                alt="apple"
+              />
+            </div>
+            <div class="cart-product-card-body flex-column">
+              <h3 class="card-title">Apple</h3>
+              <div class="quantity-wrapper flex-row">
+                <p class="align-center">Quantity</p>
+                <div class="quantity-box flex-row align-end">
+                  <button class="btn-increment">+</button>
+                  <input
+                    class="product-quantity"
+                    type="text"
+                    name="quantity"
+                    value="1"
+                    min="1"
+                  />
+                  <button class="btn-decrement">-</button>
+                </div>
               </div>
-          </div>
-        </div>
-
-        <div class="product-card flex-column">
-          <div class="product-img-container">
-            <img
-              class="responsive-img"
-              src="../assets/products/chilli.png"
-              alt="chillies"
-            />
-          </div>
-          <span class="remove-from-wishlist">
-            <span class="material-icons"> cancel </span>
-          </span>
-          <div class="product-card-body flex-column">
-            <h3 class="product-title">Red Chillies</h3>
-            <div class="price-rating-wrapper flex-row justify-space-between">
               <div class="product-price-container flex-row">
-                <h4 class="price">₹620</h4>
-                <h5 class="price-line-through align-end">₹650</h5>
+                <h4 class="price">₹50</h4>
+                <h5 class="price-line-through align-end">₹70</h5>
               </div>
-              <div class="card-rating flex-row">
-                <div class="flex-row align-center">
-                  <span class="material-icons rating-icon fs-16"> star </span>
-                  <span class="material-icons rating-icon fs-16"> star </span>
-                  <span class="material-icons rating-icon fs-16"> star </span>
-                  <span class="material-icons rating-icon fs-16">
-                    star_half
-                  </span>
-                  <span class="material-icons rating-icon fs-16">
-                    star_border
-                  </span>
-                </div>
-                <p class="rating-count align-center">11</p>
+              <div class="cart-card-actions flex-column">
+                <button class="btn-move-to-wishlist flex-row-center">
+                  <i class="fa fa-heart"></i>
+                  MOVE TO WISHLIST
+                </button>
+                <button class="btn-remove-from-cart">REMOVE</button>
               </div>
             </div>
-            <div class="product-card-actions">
-                <a href="#" class="btn-add-cart btn-move-to-cart flex-row-center">
-                  <i class="fa fa-shopping-cart"></i>
-                  MOVE TO CART
-                </a>
-              </div>
           </div>
-        </div>
-
-        <div class="product-card flex-column">
-          <div class="product-img-container">
-            <img
-              class="responsive-img"
-              src="../assets/products/beetroot.png"
-              alt="beetroot"
-            />
-          </div>
-          <span class="remove-from-wishlist">
-            <span class="material-icons"> cancel </span>
-          </span>
-          <div class="product-card-body flex-column">
-            <h3 class="product-title">Beetroot</h3>
-            <div class="price-rating-wrapper flex-row justify-space-between">
-              <div class="product-price-container flex-row">
-                <h4 class="price">₹620</h4>
-                <h5 class="price-line-through align-end">₹650</h5>
+        </section>
+        <section class="cart-total flex-column">
+          <h3 class="cart-total-heading">Price details</h3>
+          <div class="cart-total-details flex-column">
+            <div class="cart-summary flex-column">
+              <div class="cart-summary-item flex-row justify-space-between">
+                <span>Price (2 items)</span>
+                <span>₹100</span>
               </div>
-              <div class="card-rating flex-row">
-                <div class="flex-row align-center">
-                  <span class="material-icons rating-icon fs-16"> star </span>
-                  <span class="material-icons rating-icon fs-16"> star </span>
-                  <span class="material-icons rating-icon fs-16"> star </span>
-                  <span class="material-icons rating-icon fs-16">
-                    star_half
-                  </span>
-                  <span class="material-icons rating-icon fs-16">
-                    star_border
-                  </span>
-                </div>
-                <p class="rating-count align-center">11</p>
+              <div class="cart-summary-item flex-row justify-space-between">
+                <span>Discount</span>
+                <span>-₹10</span>
+              </div>
+              <div class="cart-summary-item flex-row justify-space-between">
+                <span>Delivery charges</span>
+                <span>₹40</span>
               </div>
             </div>
-            <div class="product-card-actions">
-                <a href="#" class="btn-add-cart btn-move-to-cart flex-row-center">
-                  <i class="fa fa-shopping-cart"></i>
-                  MOVE TO CART
-                </a>
-              </div>
+            <div class="cart-total-amount flex-row justify-space-between">
+              <span>TOTAL AMOUNT</span>
+              <span>₹130</span>
+            </div>
+            <div class="alert flex-row">
+              <span class="material-icons-round check-icon">
+                check_circle
+              </span>
+              <p class="alert-msg align-center">You saved ₹10 on this order</p>
+            </div>
           </div>
-        </div>
+          <button class="btn-place-order">PLACE ORDER</button>
+        </section>
       </div>
-    </section>
+    </div>
     <footer class="page-footer text-centered">
       created by
       <a href="https://github.com/vanshitalavange">vanshitalavange</a> -

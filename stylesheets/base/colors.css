@@ -2,6 +2,7 @@
   --primary-color: hsl(81, 56%, 57%);
   --secondary-color: hsl(146, 85%, 18%);
   --white-color: hsl(0, 0%, 100%);
+  --accent-color:hsl(133, 41%, 54%);
   --scroll-x-icon-color: hsl(0, 0%, 50%);
   --scroll-x-icon-bg-color: hsl(0, 2%, 91%);
   --header-item-grey-color: hsl(0, 1%, 60%);
@@ -11,4 +12,5 @@
   --login-signup-popup-bg-color:hsla(0, 0%, 0%, 0.7);
   --form-input-bg-color:hsl(0, 0%, 93%);
   --remove-icon-color:hsl(0, 4%, 75%);
+  --price-text-color:hsl(0, 1%, 22%);
 }
