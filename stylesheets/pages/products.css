@@ -61,8 +61,3 @@
   gap: var(--spacing-sm);
   padding: 0 0 var(--spacing-xs) 0;
 }
-/** footer **/
-.page-footer{
-  position:static;
-  margin-bottom:var(--spacing-xs);
-}
