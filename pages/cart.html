@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cart | Mandeshi Agro</title>
-    <link rel="shortcut icon" type="image/png" href="../assets/favicon.ico"/>
+    <link rel="shortcut icon" type="image/png" href="../assets/favicon.ico" />
     <link href="../stylesheets/pages/cart.css" rel="stylesheet" />
   </head>
   <body>
@@ -30,40 +30,72 @@
                 class="fa fa-search header-icon align-center mobile-search-icon"
               ></i>
             </button>
-            <div class="list-item-box flex-row">
-              <div class="badge">
-                <i
-                  class="fa fa-shopping-cart header-icon header-badge-icon"
-                ></i>
-                <span class="badge-counter badge-round badge-counter-right"
-                  >0</span
+            <div class="list-item-products-container">
+              <div class="list-item-box flex-row">
+                <span
+                  class="material-icons header-icon products-icon align-center"
                 >
+                  inventory
+                </span>
+                <li class="list-item list-item-products">Products</li>
               </div>
-              <li class="list-item align-center">
-                <a href="./cart.html" class="nav-link">Cart</a>
-              </li>
+              <ul class="products-list">
+                <li class="product-list-item">
+                  <a href="../pages/products.html">Organic Fruits</a>
+                </li>
+                <li class="product-list-item">
+                  <a href="../pages/products.html">Organic Diary Products</a>
+                </li>
+                <li class="product-list-item">
+                  <a href="../pages/products.html">Wood Pressed Oils</a>
+                </li>
+                <li class="product-list-item">
+                  <a href="../pages/products.html">Organic Spices</a>
+                </li>
+                <li class="product-list-item">
+                  <a href="../pages/products.html">Organic Vegetables</a>
+                </li>
+                <li class="product-list-item">
+                  <a href="../pages/products.html">Organic Groceries</a>
+                </li>
+              </ul>
             </div>
-            <div class="list-item-box flex-row">
-              <div class="badge">
-                <i class="fa fa-heart header-icon header-badge-icon"></i>
-                <span class="badge-counter badge-round badge-counter-right"
-                  >4</span
-                >
-              </div>
-              <li class="list-item align-center">
-                <a href="./wishlist.html" class="nav-link">Wishlist</a>
-              </li>
-            </div>
+            <a href="./cart.html" class="nav-link"
+              ><div class="list-item-box flex-row">
+                <div class="badge">
+                  <i
+                    class="fa fa-shopping-cart header-icon header-badge-icon"
+                  ></i>
+                  <span class="badge-counter badge-round badge-counter-right"
+                    >2</span
+                  >
+                </div>
+                <li class="list-item align-center">Cart</li>
+              </div></a
+            >
+            <a href="./wishlist.html" class="nav-link"
+              ><div class="list-item-box flex-row">
+                <div class="badge">
+                  <i class="fa fa-heart header-icon header-badge-icon"></i>
+                  <span class="badge-counter badge-round badge-counter-right"
+                    >4</span
+                  >
+                </div>
+                <li class="list-item align-center">Wishlist</li>
+              </div></a
+            >
             <div class="list-item-box list-item-login flex-row">
               <i class="fa fa-user header-icon header-badge-icon align-end"></i>
-              <li class="list-item align-center">
-                <a href="#" class="nav-link">Login</a>
-              </li>
+              <li class="list-item align-center">Login</li>
             </div>
           </ul>
         </nav>
       </div>
     </header>
+    <div class="mobile-search-bar-box flex-row">
+      <input class="mobile-search-input" type="text" placeholder="Search" />
+      <i class="fa fa-search header-icon align-center"></i>
+    </div>
 
     <!-- Login Signup Popup -->
     <section class="login-signup-section flex-row-center">
