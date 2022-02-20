@@ -101,9 +101,6 @@
 .page-footer {
   font-size: var(--font-size-xs);
   text-align: center;
-  width: 90vw;
-  position: absolute;
-  bottom: var(--spacing-xs);
 }
 .page-footer a {
   color: var(--white-color);
