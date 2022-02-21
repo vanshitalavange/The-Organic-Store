@@ -1,8 +1,8 @@
 # mandeshi_agro
 Mandeshi Agro supports the concept of #ChemicalFreeKitchen, it serves organic and natural products in many categories. This repository contains screens for Mandeshi Agro.
-# Live URL
+## Live URL
 https://mandeshi-agro.netlify.app/
-# Screens
+## Screens
 - [Home Page](https://mandeshi-agro.netlify.app/)
 - [Products Page](https://mandeshi-agro.netlify.app/pages/products.html)
 - [Wishlist Page](https://mandeshi-agro.netlify.app/pages/wishlist.html)
