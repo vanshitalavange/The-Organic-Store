@@ -7,9 +7,6 @@
   margin: var(--spacing-lg) auto;
 }
 /** banner **/
-.hero {
-  padding: 0 var(--spacing-xl);
-}
 .hero-img {
   border-radius: var(--border-rd-xl);
 }
@@ -27,7 +24,7 @@
   grid-auto-flow: column;
   overflow-x: hidden;
   gap: var(--spacing-sm);
-  transition: 0.3s ease-in;
+  scroll-behavior: smooth;
 }
 .best-deals-cards-wrapper::-webkit-scrollbar {
   display: none;
@@ -90,10 +87,5 @@
 @media only screen and (min-width: 1600px) {
   html {
     font-size: 120%;
-  }
-}
-@media only screen and (max-width: 1000px) {
-  .hero {
-    padding: 0;
   }
 }

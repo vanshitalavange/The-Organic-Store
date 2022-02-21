@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width" />
-    <title>Mandeshi Agro | Organic and Natural</title>
-    <link rel="icon" type="image/x-icon" href="./assets/ma_logo.png" />
+    <title>Home | Mandeshi Agro</title>
     <link href="./stylesheets/pages/index.css" rel="stylesheet" />
+    <link rel="shortcut icon" type="image/png" href="./assets/favicon.ico" />
   </head>
   <body>
     <header class="page-header">
@@ -30,35 +30,63 @@
                 class="fa fa-search header-icon align-center mobile-search-icon"
               ></i>
             </button>
-            <div class="list-item-box flex-row">
-              <div class="badge">
-                <i
-                  class="fa fa-shopping-cart header-icon header-badge-icon"
-                ></i>
-                <span class="badge-counter badge-round badge-counter-right"
-                  >0</span
+            <div class="list-item-products-container">
+              <div class="list-item-box flex-row">
+                <span
+                  class="material-icons header-icon products-icon align-center"
                 >
+                  inventory
+                </span>
+                <li class="list-item list-item-products">Products</li>
               </div>
-              <li class="list-item align-center">
-                <a href="./pages/cart.html" class="nav-link">Cart</a>
-              </li>
+              <ul class="products-list">
+                <li class="product-list-item">
+                  <a href="./pages/products.html">Organic Fruits</a>
+                </li>
+                <li class="product-list-item">
+                  <a href="./pages/products.html">Organic Diary Products</a>
+                </li>
+                <li class="product-list-item">
+                  <a href="./pages/products.html">Wood Pressed Oils</a>
+                </li>
+                <li class="product-list-item">
+                  <a href="./pages/products.html">Organic Spices</a>
+                </li>
+                <li class="product-list-item">
+                  <a href="./pages/products.html">Organic Vegetables</a>
+                </li>
+                <li class="product-list-item">
+                  <a href="./pages/products.html">Organic Groceries</a>
+                </li>
+              </ul>
             </div>
-            <div class="list-item-box flex-row">
-              <div class="badge">
-                <i class="fa fa-heart header-icon header-badge-icon"></i>
-                <span class="badge-counter badge-round badge-counter-right"
-                  >4</span
-                >
-              </div>
-              <li class="list-item align-center">
-                <a href="./pages/wishlist.html" class="nav-link">Wishlist</a>
-              </li>
-            </div>
+            <a href="./pages/cart.html" class="nav-link"
+              ><div class="list-item-box flex-row">
+                <div class="badge">
+                  <i
+                    class="fa fa-shopping-cart header-icon header-badge-icon"
+                  ></i>
+                  <span class="badge-counter badge-round badge-counter-right"
+                    >2</span
+                  >
+                </div>
+                <li class="list-item align-center">Cart</li>
+              </div></a
+            >
+            <a href="./pages/wishlist.html" class="nav-link"
+              ><div class="list-item-box flex-row">
+                <div class="badge">
+                  <i class="fa fa-heart header-icon header-badge-icon"></i>
+                  <span class="badge-counter badge-round badge-counter-right"
+                    >4</span
+                  >
+                </div>
+                <li class="list-item align-center">Wishlist</li>
+              </div></a
+            >
             <div class="list-item-box list-item-login flex-row">
               <i class="fa fa-user header-icon header-badge-icon align-end"></i>
-              <li class="list-item align-center">
-                <a href="#" class="nav-link">Login</a>
-              </li>
+              <li class="list-item align-center">Login</li>
             </div>
           </ul>
         </nav>
@@ -75,6 +103,71 @@
           src="assets/landing-page/ma_home_banner1.png"
           alt="mandeshi-agro-hero-image"
         />
+      </section>
+      <section class="categories">
+        <h1 class="section-title text-centered">Our categories</h1>
+        <div class="categories-cards-wrapper">
+          <a href="./pages/products.html"
+            ><div class="product-category flex-col-center">
+              <img
+                class="category-img responsive-img"
+                src="assets/product-categories/fruit.png"
+                alt="category-fruits"
+              />
+              <h3>Organic Fruits</h3>
+            </div></a
+          >
+          <a href="./pages/products.html"
+            ><div class="product-category flex-col-center">
+              <img
+                class="category-img responsive-img"
+                src="assets/product-categories/cow.png"
+                alt="category-dairy-products"
+              />
+              <h3>Organic Dairy Products</h3>
+            </div></a
+          >
+          <a href="./pages/products.html"
+            ><div class="product-category flex-col-center">
+              <img
+                class="category-img responsive-img"
+                src="assets/product-categories/sunflower-oil.png"
+                alt="category-oils"
+              />
+              <h3>Wood Pressed Oils</h3>
+            </div></a
+          >
+          <a href="./pages/products.html"
+            ><div class="product-category flex-col-center">
+              <img
+                class="category-img responsive-img"
+                src="assets/product-categories/chilli.png"
+                alt="category-spices"
+              />
+              <h3>Organic Spices</h3>
+            </div></a
+          >
+          <a href="./pages/products.html"
+            ><div class="product-category flex-col-center">
+              <img
+                class="category-img responsive-img"
+                src="assets/product-categories/vegetables.png"
+                alt="category-vegetables"
+              />
+              <h3>Organic Vegetables</h3>
+            </div></a
+          >
+          <a href="./pages/products.html"
+            ><div class="product-category flex-col-center">
+              <img
+                class="category-img responsive-img"
+                src="assets/product-categories/rice.png"
+                alt="category-grocery"
+              />
+              <h3>Organic Groceries</h3>
+            </div></a
+          >
+        </div>
       </section>
       <section class="best-deals">
         <h1 class="section-title text-centered">Best deals</h1>
@@ -171,7 +264,7 @@
                   <p class="rating-count align-center">11</p>
                 </div>
               </div>
-              <div class="product-card-actions flex-row">
+              <div class="product-card-actions flex-row flex-wrap">
                 <div class="quantity-box flex-row">
                   <button class="btn-increment">+</button>
                   <input
@@ -224,7 +317,7 @@
                   <p class="rating-count align-center">11</p>
                 </div>
               </div>
-              <div class="product-card-actions flex-row">
+              <div class="product-card-actions flex-row flex-wrap">
                 <div class="quantity-box flex-row">
                   <button class="btn-increment">+</button>
                   <input
@@ -277,7 +370,7 @@
                   <p class="rating-count align-center">11</p>
                 </div>
               </div>
-              <div class="product-card-actions flex-row">
+              <div class="product-card-actions flex-row flex-wrap">
                 <div class="quantity-box flex-row">
                   <button class="btn-increment">+</button>
                   <input
@@ -383,7 +476,7 @@
                   <p class="rating-count align-center">11</p>
                 </div>
               </div>
-              <div class="product-card-actions flex-row">
+              <div class="product-card-actions flex-row flex-wrap">
                 <div class="quantity-box flex-row">
                   <button class="btn-increment">+</button>
                   <input
@@ -436,7 +529,7 @@
                   <p class="rating-count align-center">11</p>
                 </div>
               </div>
-              <div class="product-card-actions flex-row">
+              <div class="product-card-actions flex-row flex-wrap">
                 <div class="quantity-box flex-row">
                   <button class="btn-increment">+</button>
                   <input
@@ -457,76 +550,57 @@
           </div>
         </div>
       </section>
-      <section class="categories">
-        <h1 class="section-title text-centered">Our categories</h1>
-        <div class="categories-cards-wrapper">
-          <a href="./pages/products.html"
-            ><div class="product-category flex-col-center">
-              <img
-                class="category-img responsive-img"
-                src="assets/product-categories/fruit.png"
-                alt="category-fruits"
-              />
-              <h3>Organic Fruits</h3>
-            </div></a
-          >
-          <a href="./pages/products.html"
-            ><div class="product-category flex-col-center">
-              <img
-                class="category-img responsive-img"
-                src="assets/product-categories/cow.png"
-                alt="category-dairy-products"
-              />
-              <h3>Organic Dairy Products</h3>
-            </div></a
-          >
-          <a href="./pages/products.html"
-            ><div class="product-category flex-col-center">
-              <img
-                class="category-img responsive-img"
-                src="assets/product-categories/sunflower-oil.png"
-                alt="category-oils"
-              />
-              <h3>Wood Pressed Oils</h3>
-            </div></a
-          >
-          <a href="./pages/products.html"
-            ><div class="product-category flex-col-center">
-              <img
-                class="category-img responsive-img"
-                src="assets/product-categories/chilli.png"
-                alt="category-spices"
-              />
-              <h3>Organic Spices</h3>
-            </div></a
-          >
-          <a href="./pages/products.html"
-            ><div class="product-category flex-col-center">
-              <img
-                class="category-img responsive-img"
-                src="assets/product-categories/vegetables.png"
-                alt="category-vegetables"
-              />
-              <h3>Organic Vegetables</h3>
-            </div></a
-          >
-          <a href="./pages/products.html"
-            ><div class="product-category flex-col-center">
-              <img
-                class="category-img responsive-img"
-                src="assets/product-categories/rice.png"
-                alt="category-grocery"
-              />
-              <h3>Organic Groceries</h3>
-            </div></a
-          >
-        </div>
-      </section>
     </main>
-    <footer class="page-footer text-centered">
-      created by
-      <a href="https://github.com/vanshitalavange">vanshitalavange</a> -
-      <strong>@neogcamp</strong>
+    <footer class="page-footer">
+      <div class="footer-contents-wrapper flex-column">
+        <div class="footer-details flex-row justify-space-between flex-wrap">
+          <div class="footer-brand-details flex-column">
+            <div class="footer-logo">
+              <img src="assets/ma_logo.png" alt="brand-logo" />
+            </div>
+            <span>Copyright © 2022 Mandeshi Agro</span>
+            <span>All rights reserved</span>
+            <div class="social-links flex-row">
+              <i class="fa-brands fa-instagram footer-icon"></i>
+              <i class="fa-brands fa-linkedin-in footer-icon"></i>
+              <i class="fa-brands fa-facebook-f footer-icon"></i>
+            </div>
+          </div>
+          <div class="footer-nav-links">
+            <ul class="footer-nav-list flex-column">
+              <li>
+                <a class="footer-nav-link" href="./index.html">Home</a>
+              </li>
+              <li>
+                <a class="footer-nav-link" href="./pages/products.html"
+                  >Products</a
+                >
+              </li>
+              <li>
+                <a class="footer-nav-link" href="#">Categories</a>
+              </li>
+              <li>
+                <a class="footer-nav-link" href="#">Best deals</a>
+              </li>
+              <li>
+                <a class="footer-nav-link" href="./pages/cart.html">Cart</a>
+              </li>
+            </ul>
+          </div>
+          <div class="subscribe-section">
+            <h3>Subscribe</h3>
+            <div class="email">
+              <input type="email" class="email-input" placeholder="Email" />
+              <button type="submit" class="btn-join">Join</button>
+            </div>
+          </div>
+        </div>
+        <p class="footer-bottom-text text-centered">
+          created by
+          <a href="https://github.com/vanshitalavange">vanshitalavange</a> -
+          <strong>@neogcamp</strong>
+        </p>
+      </div>
     </footer>
 
     <!-- Login Signup Popup -->
